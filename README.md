@@ -36,11 +36,11 @@
             string greeting = "Hello";
             //      indexes:   01234
 
-            Console.WriteLine(greeting.Length); // 5
-            Console.WriteLine(greeting[0]); // H
-            Console.WriteLine(greeting.IndexOf("llo")); // 2
-            Console.WriteLine(greeting.IndexOf("z")); // -1
-            Console.WriteLine(greeting.Substring(2)); // llo
+            Console.WriteLine(greeting.Length);          // 5
+            Console.WriteLine(greeting[0]);              // H
+            Console.WriteLine(greeting.IndexOf("llo"));  // 2
+            Console.WriteLine(greeting.IndexOf("z"));    // -1
+            Console.WriteLine(greeting.Substring(2));    // llo
             Console.WriteLine(greeting.Substring(1, 3)); // ell
         }
 ```
