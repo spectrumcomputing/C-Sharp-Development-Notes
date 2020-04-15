@@ -28,6 +28,23 @@
         }
 ```
 
+### Strings
+
+```cs
+  static void Main(string[] args)
+        {
+            string greeting = "Hello";
+            //      indexes:   01234
+
+            Console.WriteLine(greeting.Length);
+            Console.WriteLine(greeting[0]);
+            Console.WriteLine(greeting.IndexOf("llo"));
+            Console.WriteLine(greeting.IndexOf("z"));
+            Console.WriteLine(greeting.Substring(2));
+            Console.WriteLine(greeting.Substring(1, 3));
+        }
+```
+
 ### While & Do-While Loops
 
 ```cs
