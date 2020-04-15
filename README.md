@@ -27,6 +27,7 @@
             Console.WriteLine($"Your name is {name}");
         }
 ```
+https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types
 
 ### Strings
 
