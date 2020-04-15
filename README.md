@@ -80,3 +80,18 @@ https://docs.microsoft.com/en-us/dotnet/api/system.string.substring
 https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/while
 
 https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/do
+
+### Methods
+
+```cs
+public static void Main(string[] args)
+        {
+            int sum = AddNumbers(4, 60);
+            Console.WriteLine(sum);
+        }
+
+        public static int AddNumbers(int num1, int num2)
+        {
+            return num1 + num2;
+        }
+```
