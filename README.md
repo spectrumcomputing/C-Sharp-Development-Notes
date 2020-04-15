@@ -46,6 +46,7 @@ https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/
         }
 ```
 https://docs.microsoft.com/en-us/dotnet/api/system.string.substring
+
 https://docs.microsoft.com/en-us/dotnet/api/system.string.indexof
 
 ### While & Do-While Loops
