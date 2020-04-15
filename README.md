@@ -84,7 +84,7 @@ https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/do
 ### Methods
 
 ```cs
-public static void Main(string[] args)
+        public static void Main(string[] args)
         {
             int sum = AddNumbers(4, 60);
             Console.WriteLine(sum);
