@@ -95,3 +95,4 @@ public static void Main(string[] args)
             return num1 + num2;
         }
 ```
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods
