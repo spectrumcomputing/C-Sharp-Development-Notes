@@ -45,9 +45,11 @@ https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/
             Console.WriteLine(greeting.Substring(1, 3)); // ell
         }
 ```
-https://docs.microsoft.com/en-us/dotnet/api/system.string.substring
 
 https://docs.microsoft.com/en-us/dotnet/api/system.string.indexof
+
+https://docs.microsoft.com/en-us/dotnet/api/system.string.substring
+
 
 ### While & Do-While Loops
 
@@ -75,3 +77,6 @@ https://docs.microsoft.com/en-us/dotnet/api/system.string.indexof
             while(index <= 5);
         }
 ```
+https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/while
+
+https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/do
