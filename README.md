@@ -50,6 +50,32 @@ https://docs.microsoft.com/en-us/dotnet/api/system.string.indexof
 
 https://docs.microsoft.com/en-us/dotnet/api/system.string.substring
 
+### Arrays
+
+```cs
+        static void Main(string[] args)
+        {
+            int [] luckyNumbers = new int[10];
+            luckyNumbers[0] = 90;
+            
+            Console.WriteLine(luckyNumbers[0]);
+            Console.WriteLine(luckyNumbers[1]);
+            Console.WriteLine(luckyNumbers.Length);
+        }
+ ```
+ 
+ ```cs
+        static void Main(string[] args)
+        {
+           int[] luckyNumbers = { 4, 8, 15, 16, 23, 42 };
+           luckyNumbers[0] = 90;
+
+           Console.WriteLine(luckyNumbers[0]);
+           Console.WriteLine(luckyNumbers[1]);
+           Console.WriteLine(luckyNumbers.Length);
+        }
+ ```
+ https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/
 
 ### While & Do-While Loops
 
@@ -97,30 +123,5 @@ https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/do
 ```
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods
 
-### Arrays
 
-```cs
-        static void Main(string[] args)
-        {
-            int [] luckyNumbers = new int[10];
-            luckyNumbers[0] = 90;
-            
-            Console.WriteLine(luckyNumbers[0]);
-            Console.WriteLine(luckyNumbers[1]);
-            Console.WriteLine(luckyNumbers.Length);
-        }
- ```
- 
- ```cs
-        static void Main(string[] args)
-        {
-           int[] luckyNumbers = { 4, 8, 15, 16, 23, 42 };
-           luckyNumbers[0] = 90;
-
-           Console.WriteLine(luckyNumbers[0]);
-           Console.WriteLine(luckyNumbers[1]);
-           Console.WriteLine(luckyNumbers.Length);
-        }
- ```
- https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/
  
