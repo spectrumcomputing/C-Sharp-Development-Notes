@@ -31,17 +31,17 @@
 ### Strings
 
 ```cs
-  static void Main(string[] args)
+        static void Main(string[] args)
         {
             string greeting = "Hello";
             //      indexes:   01234
 
-            Console.WriteLine(greeting.Length);
-            Console.WriteLine(greeting[0]);
-            Console.WriteLine(greeting.IndexOf("llo"));
-            Console.WriteLine(greeting.IndexOf("z"));
-            Console.WriteLine(greeting.Substring(2));
-            Console.WriteLine(greeting.Substring(1, 3));
+            Console.WriteLine(greeting.Length); // 5
+            Console.WriteLine(greeting[0]); // H
+            Console.WriteLine(greeting.IndexOf("llo")); // 2
+            Console.WriteLine(greeting.IndexOf("z")); // -1
+            Console.WriteLine(greeting.Substring(2)); // llo
+            Console.WriteLine(greeting.Substring(1, 3)); // ell
         }
 ```
 
