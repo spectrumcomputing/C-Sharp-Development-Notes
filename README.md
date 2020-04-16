@@ -32,18 +32,18 @@ https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/
 ### Strings
 
 ```cs
-        static void Main(string[] args)
-        {
-            string greeting = "Hello";
-            //      indexes:   01234
+static void Main(string[] args)
+{
+        string greeting = "Hello";
+        //      indexes:   01234
 
-            Console.WriteLine(greeting.Length);          // 5
-            Console.WriteLine(greeting[0]);              // H
-            Console.WriteLine(greeting.IndexOf("llo"));  // 2
-            Console.WriteLine(greeting.IndexOf("z"));    // -1
-            Console.WriteLine(greeting.Substring(2));    // llo
-            Console.WriteLine(greeting.Substring(1, 3)); // ell
-        }
+        Console.WriteLine(greeting.Length);          // 5
+        Console.WriteLine(greeting[0]);              // H
+        Console.WriteLine(greeting.IndexOf("llo"));  // 2
+        Console.WriteLine(greeting.IndexOf("z"));    // -1
+        Console.WriteLine(greeting.Substring(2));    // llo
+        Console.WriteLine(greeting.Substring(1, 3)); // ell
+}
 ```
 
 https://docs.microsoft.com/en-us/dotnet/api/system.string.indexof
@@ -53,27 +53,27 @@ https://docs.microsoft.com/en-us/dotnet/api/system.string.substring
 ### Arrays
 
 ```cs
-        static void Main(string[] args)
-        {
-            int [] luckyNumbers = new int[10];
-            luckyNumbers[0] = 90;
+static void Main(string[] args)
+{
+        int [] luckyNumbers = new int[10];
+        luckyNumbers[0] = 90;
             
-            Console.WriteLine(luckyNumbers[0]);
-            Console.WriteLine(luckyNumbers[1]);
-            Console.WriteLine(luckyNumbers.Length);
-        }
+        Console.WriteLine(luckyNumbers[0]);
+        Console.WriteLine(luckyNumbers[1]);
+        Console.WriteLine(luckyNumbers.Length);
+}
  ```
  
  ```cs
-        static void Main(string[] args)
-        {
-           int[] luckyNumbers = { 4, 8, 15, 16, 23, 42 };
-           luckyNumbers[0] = 90;
+static void Main(string[] args)
+{
+    int[] luckyNumbers = { 4, 8, 15, 16, 23, 42 };
+    luckyNumbers[0] = 90;
 
-           Console.WriteLine(luckyNumbers[0]);
-           Console.WriteLine(luckyNumbers[1]);
-           Console.WriteLine(luckyNumbers.Length);
-        }
+    Console.WriteLine(luckyNumbers[0]);
+    Console.WriteLine(luckyNumbers[1]);
+    Console.WriteLine(luckyNumbers.Length);
+}
  ```
  https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/
 
