@@ -101,7 +101,7 @@ static void Main(string[] args)
                 Console.WriteLine(index);
                 index++;
         }
-                while(index <= 5);
+        while(index <= 5);
 }
 ```
 https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/while
