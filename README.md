@@ -107,6 +107,36 @@ https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/while
 
 https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/do
 
+### If - Else Branching
+
+```cs
+static void Main(string[] args)
+        {
+            bool isStudent = false;
+            bool isSmart = false;
+
+            if (isStudent && isSmart)
+            {
+                Console.WriteLine("You are a student");
+            }
+            else if (isStudent && !isSmart)
+            {
+                Console.WriteLine("You are not a smart student");
+            }
+            else
+            {
+                Console.WriteLine("You are not a student and not smart");
+            }
+
+            // >, <, >=, <=, !=, ==
+            if (1 < 3)
+            {
+                Console.WriteLine("number omparison was true");
+            }
+        }
+```
+https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/if-else
+
 ### Methods
 
 ```cs
