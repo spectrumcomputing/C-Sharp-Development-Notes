@@ -110,7 +110,7 @@ https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/do
 ### If-Else Branching
 
 ```cs
-static void Main(string[] args)
+        static void Main(string[] args)
         {
             bool isStudent = false;
             bool isSmart = false;
