@@ -111,29 +111,29 @@ https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/do
 ### If-Else Branching
 
 ```cs
-        static void Main(string[] args)
-        {
-            bool isStudent = false;
-            bool isSmart = false;
+static void Main(string[] args)
+{
+    bool isStudent = false;
+    bool isSmart = false;
 
-            if (isStudent && isSmart)
-            {
-                Console.WriteLine("You are a student");
-            }
-            else if (isStudent && !isSmart)
-            {
-                Console.WriteLine("You are not a smart student");
-            }
-            else
-            {
-                Console.WriteLine("You are not a student and not smart");
-            }
+    if (isStudent && isSmart)
+    {
+        Console.WriteLine("You are a student");
+     }
+     else if (isStudent && !isSmart)
+     {
+         Console.WriteLine("You are not a smart student");
+     }
+     else
+     {
+         Console.WriteLine("You are not a student and not smart");
+     }
 
-            // >, <, >=, <=, !=, ==
-            if (1 < 3)
-            {
-                Console.WriteLine("number omparison was true");
-            }
+     // >, <, >=, <=, !=, ==
+     if (1 < 3)
+     {
+         Console.WriteLine("number omparison was true");
+     }
         }
 ```
 https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/if-else
@@ -141,16 +141,16 @@ https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/if-el
 ### Methods
 
 ```cs
-        static void Main(string[] args)
-        {
-            int sum = AddNumbers(4, 60);
-            Console.WriteLine(sum);
-        }
+static void Main(string[] args)
+{
+    int sum = AddNumbers(4, 60);
+    Console.WriteLine(sum);
+}
 
-        public static int AddNumbers(int num1, int num2)
-        {
-            return num1 + num2;
-        }
+public static int AddNumbers(int num1, int num2)
+{
+    return num1 + num2;
+}
 ```
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods
 
